@@ -8,12 +8,23 @@
     <title>Weatherna</title>
 </head>
 <body>
-    <p>Hello world</p>
-    <form>
-        <label for="">Enter name of country</label>
-        <input type="text" name="input" id="input">
-    </form>
+    <p>Welcome to Weatherna</p>
+    <div class="container">
+        <form>
+            <label for="">Enter name of country</label>
+            <input type="text" name="search" id="input">
+        </form>
+        <button type="submit" id="btn">Search</button>
+    </div>
+    <div class="weatherData">
+        <span id='country-name'></span>
+        <span id='temp'></span>
+        <span id='weather-status'></span>
+        <span id='wind-speed'></span>
+        <span id='humidity'></span>
+    </div>
 
-    <script src="script.js"></script>
+    <script src="script/logic.js"></script>
+    <script src="script/dom.js"></script>
 </body>
 </html>
