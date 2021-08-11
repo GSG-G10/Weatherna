@@ -12,7 +12,8 @@
   "dependencies": {
     "env2": "^2.2.2",
     "express": "^4.17.1",
-    "json": "^11.0.0"
+    "json": "^11.0.0",
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
