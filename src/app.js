@@ -2,6 +2,7 @@
 const express = require("express");
 const path = require("path");
 const getWeather = require("./controller/getWeather")
+const handeleError = require('.controller/error')
 require("dotenv").config();
 
 const app = express();
