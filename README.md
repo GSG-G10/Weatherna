@@ -1,4 +1,6 @@
-# :cloud: :sunny: :lightning_cloud: WEATHERNA  :thunder_cloud_and_rain: :tornado_cloud: :sun_small_cloud:  
+#  WEATHERNA
+ :cloud: :sunny: :lightning_cloud: :thunder_cloud_and_rain: :tornado_cloud: :sun_small_cloud:  
+ 
 #### Live link : https://weatherna.herokuapp.com/.
 
 Weatherna provides information about the weather to any spot on planet earth.
