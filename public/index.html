@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Weatherna</title>
-</head>
-<body>
-    <p>Welcome to Weatherna</p>
-    <div class="container">
-        <form>
-            <label for="">Enter name of country</label>
-            <input type="text" name="search" id="input">
-        </form>
-        <button type="submit" id="btn">Search</button>
-    </div>
-    <div class="weatherData">
-        <span id='country-name'></span>
-        <span id='temp'></span>
-        <span id='weather-status'></span>
-        <span id='wind-speed'></span>
-        <span id='humidity'></span>
-    </div>
+  </head>
+  <body>
+    <main>
+      <section class="glass">
+        <p class="paragraph">Welcome to Weatherna</p>
 
+        <form class="input-form">
+          <input
+            type="text"
+            name="country name"
+            value=""
+            placeholder="Enter your country"
+            id="countryName"
+            class="search-field"
+          /><br />
+          <button class="submit" id="searchButton">Get Weather</button>
+          <p class="eror-search" id="eror"></p>
+        </form>
+
+        <div id="weatherDev">
+          <span id="country-name"></span>
+          <img src="" id="flag" >
+          <span id="temp"></span>
+          <span id="weather-status"></span>
+          <span id="wind-speed"></span>
+          <span id="humidity"></span>
+        </div>
+      </section>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
     <script src="script/logic.js"></script>
     <script src="script/dom.js"></script>
-</body>
+  </body>
 </html>
