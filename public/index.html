@@ -8,29 +8,36 @@
     <title>Weatherna</title>
   </head>
   <body>
-    <p>Welcome to Weatherna</p>
-    <form class="input-form">
-      <input
-        type="text"
-        name="country name"
-        value=""
-        placeholder="Enter your City to find out
+    <main>
+      <section class="glass">
+        <p class="paragraph">Welcome to Weatherna</p>
+
+        <form class="input-form">
+          <input
+            type="text"
+            name="country name"
+            value=""
+            placeholder="Enter your City to find out
         "
-        id="countryName"
-        class="search-field"
-      /><br />
-      <button class="submit" id="searchButton">Get Weather</button>
-      <p class="eror-search" id="eror"></p>
-    </form>
+            id="countryName"
+            class="search-field"
+          /><br />
+          <button class="submit" id="searchButton">Get Weather</button>
+          <p class="eror-search" id="eror"></p>
+        </form>
 
-    <div id="weatherDev">
-      <span id="country-name"></span>
-      <span id="temp"></span>
-      <span id="weather-status"></span>
-      <span id="wind-speed"></span>
-      <span id="humidity"></span>
-    </div>
-
+        <div id="weatherDev">
+          <span id="country-name"></span>
+          <img src="" id="flag" >
+          <span id="temp"></span>
+          <span id="weather-status"></span>
+          <span id="wind-speed"></span>
+          <span id="humidity"></span>
+        </div>
+      </section>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
     <script src="script/logic.js"></script>
     <script src="script/dom.js"></script>
   </body>
