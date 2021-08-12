@@ -1,6 +1,6 @@
 #  WEATHERNA :cloud: :sunny:  
  
-#### Live link : https://weatherna.herokuapp.com/.
+#### Live link : https://weatherna.herokuapp.com/
 
 Weatherna provides information about the weather to any spot on planet earth.
 
