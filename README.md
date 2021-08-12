@@ -1,5 +1,4 @@
-#  WEATHERNA
- :cloud: :sunny: :lightning_cloud: :thunder_cloud_and_rain: :tornado_cloud: :sun_small_cloud:  
+#  WEATHERNA :cloud: :sunny:  
  
 #### Live link : https://weatherna.herokuapp.com/.
 
